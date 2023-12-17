@@ -1,0 +1,51 @@
+:root {
+    --white-color: var(--WHITE, #fff);
+    --dark-red-color: var(--DARK-RED, #3c0202);
+    --navy-blue-color: var(--NAVY-BLUE, #2d06a2);
+    --orange-color: var(--ORANGE, #ea5d06);
+    --black-color: var(--BLACK, #000);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .list {
+    list-style: none;
+  }
+  .text {
+    font-weight: 400;
+    color: var(--slate-color);
+    font-style: normal;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  width: 1160px;
+  }
+  .my_name {
+    font-family: "EB Garamond", serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: var(--dark-red-color);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .address {
+   
+    font-style: normal;
+    
+  }
+  
