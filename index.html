@@ -9,7 +9,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
@@ -27,19 +27,23 @@
       font-family: "EB Garamond", serif;
       background-color: var(--white-color);
       line-height: 1.5;
+      font-weight: 400;
+      font-size: 20px;
+      padding: 30px;
     }
   </style>
   <body>
     <header>
-      <div class="container">
       <h1 class="my-name">Vitaliia Troian</h1>
-      <address>
-        <ul class="link list address">
-          <li class="link list">
-            <a href="phone:+48516174555">+48 516 174 555</a>
+      <div class="container personal-data">
+      <div >
+      <address class="address list">
+        <ul class="list link contact">
+          <li >
+            <a class="contact link list" href="phone:+48516174555">+48 516 174 555</a>
           </li>
-          <li class="link list">
-            <a href="email:vitylja.trojan@gmail.com"
+          <li>
+            <a class="contact link list" href="email:vitylja.trojan@gmail.com"
               >vitylja.trojan@gmail.com</a
             >
           </li>
@@ -47,17 +51,17 @@
         </address>
       </div>
       <div>
-        <ul class="list link">
+        <ul class="list link contact">
           <li>29.06.1991 r</li>
-          <li>Kobieta, obywatelstwo ukraińskie</li>
+          <li>Kobieta, obywatelstwo ukraińskie, wdowa</li>
           <li>55-200 Oława, ul.3 Maja 37/6</li>
-          <li>Wdowa</li>
         </ul>
       </div>
+    </div>
     </header> 
     <main> 
-      <section>
-      <h2>O mnie</h2>
+      <section class="section">
+      <h2 class="header">O mnie</h2>
       <div>
         <ul>
           <li>ucze się szybko wszystkemu nowemu</li>
@@ -68,20 +72,20 @@
         </ul>
       </div>
     </section>
-   <section>
-      <h2>Wykształcenie</h2>
+   <section class="section">
+      <h2 class="header">Wykształcenie</h2>
       <div>
         <h3>Państwowe Technikum Ceramiczne Myrhorod im.MV Gogola</h3>
         <p>wrzesień 2007 - czerwiec 2011</p>
         <li>Ekologia stosowana, technik-ekolog</li>
       </div>
 </section>
-<section>
-      <h2>Doświadczenie zawodowe</h2>
+<section class="section">
+      <h2 class="header">Doświadczenie zawodowe</h2>
       <div>
         <h3>Pracownik magazynowy</h3>
         <h4>Manpowergroup</h4>
-        <p>marzec 2023 - teraz</p>
+        <p>marzec 2023 - grudzień 2023</p>
         <ul>
           <li>Praca ze skanerzem</li>
           <li>Wykladka towaru na półce</li>
@@ -118,8 +122,8 @@
     </section>
     </main>
     <footer>
-      <section>
-      <h2>Umiejętności</h2>
+      <section class="section">
+      <h2 class="header">Umiejętności</h2>
       <div>
         <ul>
           <li>Ucze się na programista (IT,JS)</li>
@@ -128,7 +132,7 @@
           <li>Przetwarzanie ryb z dużą prędkością i dokładnoścą</li>
         </ul>
       </div>
-      <h2>Języki</h2>
+      <h2 class="header">Języki</h2>
       <div>
         <ul>
           <li>Polski (dobrze)</li>

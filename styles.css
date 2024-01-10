@@ -1,6 +1,6 @@
 :root {
     --white-color: var(--WHITE, #fff);
-    --dark-red-color: var(--DARK-RED, #3c0202);
+    --dark-red-color: var(--DARK-RED, #a00c0c);
     --navy-blue-color: var(--NAVY-BLUE, #2d06a2);
     --orange-color: var(--ORANGE, #ea5d06);
     --black-color: var(--BLACK, #000);
@@ -34,18 +34,47 @@
     padding: 20px;
   width: 1160px;
   }
-  .my_name {
+  .my-name {
     font-family: "EB Garamond", serif;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 900;
     line-height: normal;
     color: var(--dark-red-color);
-    margin-bottom: 20px;
     text-align: center;
+    justify-content: center;
+    padding-top: 30px ;
+    padding-bottom: 10px;
+    font-size: 40px;
   }
   .address {
-   
     font-style: normal;
-    
   }
-  
+  .personal-data {
+display: flex;
+margin: auto;
+text-align: center;
+gap: 200px;
+justify-content: center;
+font-size: 25px;
+  }
+  .contact {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color:var(--navy-blue-color);
+}
+ .header {
+ color:var(--orange-color);
+ text-align: center;
+ font-style: normal;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ font-weight: 700;
+ margin: 10px;
+ font-size: 35px;
+
+ } 
+ .section {
+  padding: 20px;
+ }
