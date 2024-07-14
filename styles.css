@@ -35,7 +35,7 @@ main {
   width: 100%;
   margin-left: 250px;
   display: flex;
-  background-image: url("/images/image.jpg");
+  background-image: url("./images/image.jpg");
   background-size: cover;
   box-shadow: 2px 2px 4px #f8b4b4;
 }
