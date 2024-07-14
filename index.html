@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <link
       rel="stylesheet"
@@ -13,7 +13,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,268 +20,339 @@
       rel="stylesheet"
     />
   </head>
-
-  <style>
-    body {
-      font-family: "EB Garamond", serif;
-      background-image: url('/images/image.jpg');
-      background-size: cover;
-      line-height: 1.5;
-      font-weight: 400;
-      font-size: 16px;
-      max-width: 1280px;
-    }
-  </style>
   <body>
+    <style>
+      body {
+        font-family: "EB Garamond", serif;
+
+        line-height: 1.5;
+        font-weight: 400;
+        font-size: 16px;
+        max-height: 980px;
+        max-width: 1160px;
+      }
+    </style>
+
     <div class="general">
-    <aside class="aside">
-      <div class="container">
+      <!-- перша колонка -->
+      <aside class="aside">
+        <div class="container">
+          <div class="personal-data">
+            <!-- фото -->
+            <img
+              src="/images/vitaliia.png"
+              class="personal-photo"
+              alt="Vitaliia Troian"
+              width="250"
+              height="300"
+            />
+            <!-- персональна інформація -->
+            <div class="personal-address">
+              <address class="address list">
+                <ul class="list link contact container-address">
+                  <li class="icons">
+                    <svg class="icons-contact" width="20" height="20">
+                      <use href="/images/icons.svg#people" />
+                    </svg>
+                    <a class="contact link list" href="#">Woman, 1991</a>
+                  </li>
+                  <li class="icons">
+                    <svg class="icons-contact" width="20" height="20">
+                      <use href="/images/icons.svg#home" />
+                    </svg>
+                    <a class="contact link list" href="#">Poland, Europe</a>
+                  </li>
+                  <li class="icons">
+                    <svg class="icons-contact" width="20" height="20">
+                      <use href="/images/icons.svg#mobile" />
+                    </svg>
+                    <a class="contact link list" href="tel:+48516174555"
+                      >+48 516 174 555</a
+                    >
+                  </li>
+                  <li class="icons">
+                    <svg class="icons-contact" width="20" height="20">
+                      <use href="/images/icons.svg#mail" />
+                    </svg>
+                    <a
+                      class="contact link list"
+                      href="mailto:vitylja.trojan@gmail.com"
+                      >vitylja.trojan@gmail.com</a
+                    >
+                  </li>
 
-      <div class="personal-data">
-        <a class="personal" href="">
-        <div class="container-animation">
-      <img src="/images/vitaliia.jpg" 
-      class="personal-photo" 
-      alt="Vitaliia Troian"
-       width="300" 
-       height="300">
-       <div class="personal-address">
-        <address class="address list">
-          <ul class="list link contact container-address">
-            <li class="icons">
-              <svg  class="icons-contact" width="20" height="20">
-                <use href="/images/icons.svg#people"/>
-              </svg>
-              <a class="contact link list" href="#">Kobieta, 1991</a>
+                  <li class="icons">
+                    <svg class="icons-contact" width="20" height="20">
+                      <use href="/images/icons.svg#github" />
+                    </svg>
+                    <a
+                      class="contact link list"
+                      href="https://github.com/VitaTro"
+                      >VitaTro</a
+                    >
+                  </li>
+
+                  <li class="icons">
+                    <svg class="icons-contact" width="20" height="20">
+                      <use href="/images/icons.svg#linkedin" />
+                    </svg>
+                    <a
+                      class="contact link list"
+                      href="https://www.linkedin.com/in/vitaliia-troian-363608311/"
+                      >VITALIIA TROIAN</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+
+            <!-- оцінка програмування -->
+            <h2 class="header">Programming skills</h2>
+            <ul class="container-skills">
+              <li class="skills">
+                HTML5/CSS
+                <div class="skills-icons">
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                </div>
+              </li>
+              <li class="skills">
+                JavaScript
+                <div class="skills-icons">
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-empty" />
+                  </svg>
+                </div>
+              </li>
+              <li class="skills">
+                Git
+                <div class="skills-icons">
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-empty" />
+                  </svg>
+                </div>
+              </li>
+              <li class="skills">
+                React
+                <div class="skills-icons">
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-empty" />
+                  </svg>
+                </div>
+              </li>
+              <li class="skills">
+                Node.js
+                <div class="skills-icons">
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-full" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-empty" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-empty" />
+                  </svg>
+                  <svg class="icons-star" width="16" height="16">
+                    <use href="/images/icons.svg#star-empty" />
+                  </svg>
+                </div>
+              </li>
+            </ul>
+            <!-- освіта -->
+            <h2 class="header">My education</h2>
+            <div class="education">
+              <h3 class="header-second">GoIT</h3>
+              <h4 class="header-third">FullStack Developer</h4>
+              <p class="header-item">september 2023r - currently</p>
+            </div>
+            <div class="education">
+              <h3 class="header-second">
+                Myrhorod Ceramic College named after M.V. Gogol
+              </h3>
+              <h4 class="header-third">EApplied Ecology, technique-ecologus</h4>
+              <p class="header-item">september 2007 - june 2011</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <h1 class="my-name">Vitaliia Troian</h1>
+        <h2 class="header-profession">Front-End Developer</h2>
+        <!-- мої проєкти -->
+        <h3 class="header-main">My projects</h3>
+        <ol class="list-primary">
+          <li>
+            <a
+              class="list-primary-item"
+              href="https://vitatro.github.io/goit-markup-hw-07/"
+            >
+              Own work (business app)</a
+            ><span class="list-primary-item"
+              >........................................</span
+            >
+
+            [<span class="list-primary-item"> HTML5, CSS3</span>]
+          </li>
+          <li>
+            <a
+              class="list-primary-item"
+              href="https://simonmedic.github.io/Fresh-Team/"
+            >
+              Group work (app by "Simple chocolate")</a
+            ><span class="list-primary-item">.................</span>[<span
+              class="list-primary-item"
+            >
+              HTML5, CSS3</span
+            >]
+          </li>
+          <li>
+            <a
+              class="list-primary-item"
+              href="https://vitatro.github.io/goit-js-hw-11/"
+            >
+              Own work (search images)</a
+            ><span class="list-primary-item"
+              >........................................</span
+            >[<span class="list-primary-item">JavaScript</span>]
+          </li>
+          <li>
+            <a
+              class="list-primary-item"
+              href="https://romanooo84.github.io/GoIT-Movies/"
+            >
+              Group work (app by "Movies")</a
+            ><span class="list-primary-item"
+              >.................................</span
+            >[<span class="list-primary-item">JavaScript</span>]
+          </li>
+          <li>
+            <a
+              class="list-primary-item"
+              href="https://VitaTro.github.io/goit-react-hw-05-movies/"
+            >
+              Own work (app by "Movies")</a
+            ><span class="list-primary-item"
+              >....................................</span
+            >[<span class="list-primary-item">React.js</span>]
+          </li>
+        </ol>
+        <!-- моя робота -->
+        <h2 class="header-main">My experience</h2>
+        <div>
+          <ul class="experience">
+            <li>
+              <h3 class="header-work">product worker</h3>
+              <h4 class="header-company">Sp Z.o.o. Kompozyty</h4>
+              <h5 class="header-work-item">February 2024 - currently</h5>
+              <p>Production of plastic for cabs of <br />trucks and trains</p>
+              <p>Working with glass wool</p>
+              <p>Embedding this mat in the forms</p>
+              <p>Quality Assurance</p>
+              <p>pouring molds with special glue</p>
             </li>
-            <li class="icons">
-              <svg  class="icons-contact" width="20" height="20">
-                <use href="/images/icons.svg#home"/>
-              </svg>
-              <a class="contact link list" href="#">Polska, Europa</a>
+            <li>
+              <h3 class="header-work">Warehouse worker</h3>
+              <h4 class="header-company">Manpowergroup</h4>
+              <h5 class="header-work-item">march 2023 - december 2023</h5>
+
+              <p>Working with the scanner</p>
+              <p>Shelf Item Layout</p>
+              <p>Collecting orders</p>
+              <p>Order sorting</p>
+              <p>Packing orders</p>
             </li>
-            <li class="icons">
-              <svg  class="icons-contact" width="20" height="20">
-                <use href="/images/icons.svg#mobile"/>
-              </svg>
-              <a class="contact link list" href="tel:+48516174555">+48 516 174 555</a>
+
+            <li>
+              <h3 class="header-work">Fish Processor</h3>
+              <h4 class="header-company">SoNa Sp z.o.o</h4>
+              <h5 class="header-work-item">May 2022 - January 2023</h5>
+
+              <p>Processing fish with a knife</p>
+              <p>Casting fish into a special reservoir</p>
+              <p>Packing fish into buckets, into a tray</p>
+              <p>Label Printing</p>
+              <p>Working with a computer</p>
             </li>
-            <li class="icons">
-              <svg  class="icons-contact" width="20" height="20">
-                <use href="/images/icons.svg#mail"/>
-              </svg>
-              <a class="contact link list" href="mailto:vitylja.trojan@gmail.com">vitylja.trojan@gmail.com</a>
+
+            <li>
+              <h3 class="header-work">Fish Processor</h3>
+              <h4 class="header-company">Silpo Food LLC, Ukraine</h4>
+              <h5 class="header-work-item">February 2019 - April 2022</h5>
+
+              <p>
+                I understand the entire production of fish<br />
+                from freezing to defrosting
+              </p>
+              <p>Processing of fish from intestine to fillet</p>
+              <p>Smoked and marinated fish and seafood</p>
+              <p>I was the best employee of the second quarter of 2021</p>
             </li>
-            
-            <li class="icons">
-              <svg  class="icons-contact" width="20" height="20">
-                <use href="/images/icons.svg#github"/>
-              </svg>
-              <a class="contact link list" href="https://github.com/VitaTro">VitaTro</a>
+            <li>
+              <h3 class="header-work">Warehouseman</h3>
+              <h4 class="header-company">Armaprom, Ukraine</h4>
+              <h5 class="header-work-item">October 2013 - February 2019</h5>
+
+              <p>Ordering goods and metals</p>
+              <p>Maintenance of sub accounts</p>
+              <p>Delivery of goods</p>
+              <p>Metal Inspection</p>
+              <p>Transparent record keeping</p>
             </li>
-            
-            <li class="icons">
-              <svg  class="icons-contact" width="20" height="20">
-                <use href="/images/icons.svg#linkedin"/>
-              </svg>
-              <a class="contact link list" href="#"></a>
-            </li>
-            
           </ul>
-          </address>
         </div>
-      </a>
-        </div>
-        <h2 class="header">Umiejętności programowania</h2>
-        <ul>
-          <li class="skills">HTML5/CSS
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-          </li>
-          <li class="skills">JavaScript
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-          </li>
-          <li class="skills">Git
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-full"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-          </li>
-          <li class="skills">React
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-          </li>
-          <li class="skills">Node.js
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-            <svg  class="icons-star" width="16" height="16">
-              <use href="/images/icons.svg#star-empty"/>
-            </svg>
-          </li>
-        </ul>
-       <h2 class="header">Wykształcenie</h2>
-       <h3 class="header-second">GoIT</h3>
-       <h4 class="header-third">FullStack Developer</h4>
-       <p class="header-item ">wrzesień 2023r - obecnie</p>
-      
-      <h3 class="header-second">Państwowe Technikum Ceramiczne Myrhorod im.MV Gogola</h3>
-       <h4 class="header-third">Ekologia stosowana, technik-ekolog</h4>
-       <p class="header-item">wrzesień 2007 - czerwiec 2011</p>
-      </div>
+      </main>
     </div>
-  </aside> 
-
-    <main> 
-      <h1 class="my-name">Vitaliia Troian</h1>
-  <h2 class="header-profession">Front-End Developer</h2>
-      <h2 class="header-main">Moje projekty</h2>
-      
-      <ol class="list-primary">
-        <li>
-          <a
-            class="list-primary-item"
-            href="https://vitatro.github.io/goit-markup-hw-07/"
-          >
-          https://vitatro.github.io/goit-markup-hw-07/</a
-          ><span class="list-primary-item">............</span>[<span
-            class="list-primary-item"
-          >
-            HTML5, CSS3</span
-          >]
-        </li>
-        <li>
-          <a
-            class="list-primary-item"
-            href="https://simonmedic.github.io/Fresh-Team/"
-          >
-          https://simonmedic.github.io/Fresh-Team/</a
-          ><span class="list-primary-item">................</span>[<span
-            class="list-primary-item"
-          >
-            HTML5, CSS3</span
-          >]
-        </li>
-        <li>
-          <a
-            class="list-primary-item"
-            href="https://romanooo84.github.io/GoIT-Movies/"
-          >
-          https://romanooo84.github.io/GoIT-Movies/</a
-          ><span class="list-primary-item">............</span>[<span
-            class="list-primary-item"
-            >JavaScript</span
-          >]
-        </li>
-        <li>
-          <a class="list-primary-item" href="#">
-            </a
-          ><span class="list-primary-item">..........................</span
-          >[<span class="list-primary-item">React.js, Node.js</span>]
-        </li>
-      </ol>
-      <h2 class="header-main">Doświadczenie zawodowe</h2>
-      <div>
-        <h3 class="header-work">Pracownik magazynowy</h3>
-        <h4 class="header-company">Manpowergroup</h4>
-        <p class="header-work-item">marzec 2023 - grudzień 2023</p>
-        <ul>
-          <li>Praca ze skanerzem</li>
-          <li>Wykladka towaru na półce</li>
-          <li>Zbieranie zamówień</li>
-          <li>Sortowanie zamówień</li>
-          <li class="line">Pakowanie zamówień</li>
-        </ul>
-      </div>
-     
-      <div>
-        <h3 class="header-work">Przetwórca ryb</h3>
-        <h4 class="header-company">SoNa Sp z.o.o</h4>
-        <p class="header-work-item">maj 2022 - styczeń 2023</p>
-        <ul>
-          <li>Obróbka ryb nożem</li>
-          <li>Zarzucenie ryb do specjalnego zalewu</li>
-          <li>Pakowanie ryb do wiaderek, do tacki</li>
-          <li>Wydrukowanie etykiety</li>
-          <li class="line">Praca z komputerzem</li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="header-work">Przetwórca ryb</h3>
-        <h4 class="header-company">Silpo Food LLC, Ukraina</h4>
-        <p class="header-work-item"> luty 2019 - kwiecień 2022</p>
-        <ul>
-          <li>rozumiem całą produkcję ryb od zamrożenia do defrostacji</li>
-          <li>obróbka ryb od jelita do fileta</li>
-          <li>wędzona i marynowanie ryb i owoce morza</li>
-          <li>Byłam najlepszym pracownikiem II kwartału 2021</li>
-        </ul>
-      </div>
-
-     
-
-   
-  </div>
   </body>
 </html>
