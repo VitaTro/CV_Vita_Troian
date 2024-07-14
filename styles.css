@@ -233,7 +233,3 @@ main {
   flex-wrap: wrap;
   gap: 70px;
 }
-.line-second {
-  border-bottom: 2px solid var(--dark-red-color);
-  height: 25px;
-}
