@@ -1,7 +1,7 @@
 :root {
   --white-color: var(--WHITE, #fff);
   --dark-red-color: var(--DARK-RED, #a00c0c);
-  --navy-blue-color: var(--NAVY-BLUE, #023867);
+  --navy-blue-color: var(--NAVY-BLUE, #155fa0);
   --orange-color: var(--ORANGE, #ff5722);
   --black-color: var(--BLACK, #000);
   --lightgray-color: var(--lightgray-color, lightgrey);
@@ -30,7 +30,6 @@ main {
 }
 .general {
   max-width: 1160px;
-  padding: 10px 20px;
   overflow: hidden;
   width: 100%;
   margin-left: 250px;
@@ -54,6 +53,10 @@ main {
   display: flex;
   gap: 200px;
   padding: 15px 30px;
+}
+.i-am {
+  font-family: "EB Garamond";
+  font-size: 20px;
 }
 .my-name {
   font-family: "EB Garamond", serif;
@@ -199,10 +202,24 @@ main {
 }
 .list-primary-item {
   color: var(--black-color);
-  font-size: 22px;
-  line-height: 2;
+  font-size: 16px;
   font-weight: 400;
   text-decoration: none;
+}
+.projects {
+  font-size: 25px;
+  margin-left: 50px;
+  color: rgb(41, 153, 24);
+  text-shadow: rgb(198, 246, 39) 0px 0px 5px;
+}
+.details-projects {
+  font-size: 18px;
+  font-weight: 400;
+}
+.details-projects-item {
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1;
 }
 .header-work {
   color: var(--dark-red-color);
